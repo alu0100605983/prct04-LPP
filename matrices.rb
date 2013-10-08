@@ -14,5 +14,8 @@ d=[0,0,0],[0,0,0],[0,0,0]
 			d[i][j]=e[i][j]+f[i][j]			
 		end
 	end
+return d
 end
 
+sum=suma(a,b)
+puts sum
