@@ -26,3 +26,24 @@ for i in (0..2)
 	end
 	print "\n"
 end
+
+# Multiplicación de matrices
+
+for i in (0..2)
+	for j in (0..2)
+		aux = 0
+		for k in (0..2)
+			aux += a[i][k] * b[k][j]
+		end
+		mult[i][j] = aux
+	end
+end
+
+puts "Multiplicación de A y B"
+for i in (0..2)
+	for j in (0..2)
+		print mult[i][j]
+		print " "
+	end
+	print "\n"
+end
