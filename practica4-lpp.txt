@@ -1,0 +1,3 @@
+git@github.com:alu0100605983/prct04-LPP.git
+
+Al crear cada uno una rama independiente, tuvimos conflicto a la hora de mezclar el trabajo hecho por cada uno, por ejemplo uno subió el archivo antes que el otro, y cuando el otro fue a subir el suyo, dio error porque ya había uno modificado. Para solventar el error, tuvimos que hacer un git pull, para que nos indicara donde había conflicto, decidimos con qué parte del código nos quedabamos y con cuál no y finalmente subimos la versión final al repositorio.
